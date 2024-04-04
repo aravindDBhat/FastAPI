@@ -5,6 +5,6 @@ pillow
 tensorflow
 torch
 gunicorn
-tensorflow-gpu==2.8.0
+
 opencv-python
 pandas
