@@ -5,7 +5,6 @@ import numpy as np
 from io import BytesIO
 from PIL import Image
 import tensorflow as tf
-import cv2
 import torch
 import torch.nn as nn           # for creating  neural networks
 from torch.utils.data import DataLoader
@@ -121,7 +120,7 @@ class ResNet9(ImageClassificationBase):
         return out 
 
 # Example usage
-model_path = "plant-disease-model-complete2.pth"
+model_path = "ML_Model/plant-disease-model-complete2.pth"
 
 # Assuming ResNet9 is defined in your FastAPI script
 model =ResNet9(3, 38)
